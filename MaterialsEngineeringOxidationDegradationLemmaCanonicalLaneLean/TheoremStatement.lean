@@ -1,0 +1,15 @@
+import HautevilleHouse.MaterialsEngineeringOxidationDegradationLemmaCanonicalLaneLean.FinalTheorem
+
+namespace HautevilleHouse
+namespace MaterialsEngineeringOxidationDegradationLemmaCanonicalLaneLean
+
+def MaterialsOxidationDegradationTheoremStatement : Prop :=
+  ∀ (A : AdmissibleClass), MaterialsOxidationDegradationClosure A
+
+theorem materials_oxidation_degradation_statement_holds :
+    MaterialsOxidationDegradationTheoremStatement := by
+  intro A
+  exact materials_oxidation_degradation_endgame A
+
+end MaterialsEngineeringOxidationDegradationLemmaCanonicalLaneLean
+end HautevilleHouse
